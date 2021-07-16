@@ -1,0 +1,91 @@
+* Set how much of the viewable space is taken up */
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+body{
+  background-color: black;
+}
+
+#page-container {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: #FFB81C;
+}
+#header-area{
+
+  
+  margin-bottom: 10px;
+}
+
+
+
+#cq-title{
+
+    padding-top: 15px;
+}
+h1,h2,h3 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+h3{
+
+  color: #ffd100;
+}
+p{
+  padding: 5px;
+  text-align: center;
+}
+
+#high-scores-list {
+  border: solid black 1px;
+
+}
+
+.btn{
+  background-color: #ffd100;
+  color: #2774ae;
+  margin: 3px;
+}
+
+#high-scores-area{
+  margin-bottom: 10px;
+}
+
+#start-quiz-button-area{
+
+  margin-top: 10px;
+
+}
+
+#quizContainer{
+
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.question{
+
+  border-bottom: white 1px solid;
+
+}
+
+.result, #seconds{
+
+  color: red;
+}
+
+#time{
+
+  margin-top: 10px;
+}
+
+input{
+
+  margin: 3px;
+}
